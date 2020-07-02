@@ -10,7 +10,7 @@
             Dim x As Double = txtX.Text
             Dim z As Double = txtZ.Text
 
-            'ToDo Write your code here
+            'ToDo Write your code here bro focus!!! допустим ты что-то накодил вооот так видишь изменения появились
 
             Return True
         End If
