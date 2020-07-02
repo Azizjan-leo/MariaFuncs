@@ -1,9 +1,8 @@
 ﻿Public Class Form1
-    Private Const A = 1, B = 2, C = 3
+    Private Const A = 2, B = 2, C = 3
 
     'Функция-обработчик нажатия клавиши Enter
-    Protected Overrides Function ProcessCmdKey(ByRef msg As Message,
-                                           ByVal keyData As Keys) _
+    Protected Overrides Function ProcessCmdKey(ByRef msg As Message, ByVal keyData As Keys) _
                                            As Boolean
 
         If msg.WParam.ToInt32() = CInt(Keys.Enter) Then
@@ -12,6 +11,10 @@
 
             'ToDo Write your code here bro focus!!! допустим ты что-то накодил вооот так видишь изменения появились
 
+            Dim answer1 As Double = ((A + B) / ((2 * A) - B)) * (A + C) * Math.Pow(Math.Sin(x), 2) + z
+            Dim ans1 As String = answer1.ToString()
+            ListView1.TileSize = New Size(ans1.Length * 8, 20)
+            ListView1.Items.Add(ans1)
             Return True
         End If
         Return MyBase.ProcessCmdKey(msg, keyData)
