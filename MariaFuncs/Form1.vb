@@ -12,9 +12,8 @@
             'ToDo Write your code here
 
             Dim answer1 As Double = ((A + B) / ((2 * A) - B)) * (A + C) * Math.Pow(Math.Sin(x), 2) + z
-            Dim ans1 As String = answer1.ToString()
-            ListView1.TileSize = New Size(ans1.Length * 8, 20)
-            ListView1.Items.Add(ans1)
+
+            txtAnswers.Text = answer1.ToString + Environment.NewLine
             Return True
         End If
         Return MyBase.ProcessCmdKey(msg, keyData)

@@ -24,10 +24,10 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.txtX = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ListView1 = New System.Windows.Forms.ListView()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lblZ = New System.Windows.Forms.Label()
         Me.txtZ = New System.Windows.Forms.TextBox()
+        Me.txtAnswers = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'txtX
@@ -46,15 +46,6 @@ Partial Class Form1
         Me.Label1.Size = New System.Drawing.Size(23, 18)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "X:"
-        '
-        'ListView1
-        '
-        Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(12, 68)
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(282, 267)
-        Me.ListView1.TabIndex = 3
-        Me.ListView1.UseCompatibleStateImageBehavior = False
         '
         'Label2
         '
@@ -83,15 +74,23 @@ Partial Class Form1
         Me.txtZ.Size = New System.Drawing.Size(60, 20)
         Me.txtZ.TabIndex = 5
         '
+        'txtAnswers
+        '
+        Me.txtAnswers.Location = New System.Drawing.Point(13, 77)
+        Me.txtAnswers.Multiline = True
+        Me.txtAnswers.Name = "txtAnswers"
+        Me.txtAnswers.Size = New System.Drawing.Size(281, 258)
+        Me.txtAnswers.TabIndex = 7
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(306, 347)
+        Me.Controls.Add(Me.txtAnswers)
         Me.Controls.Add(Me.lblZ)
         Me.Controls.Add(Me.txtZ)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtX)
         Me.Name = "Form1"
@@ -103,8 +102,8 @@ Partial Class Form1
 
     Friend WithEvents txtX As TextBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents ListView1 As ListView
     Friend WithEvents Label2 As Label
     Friend WithEvents lblZ As Label
     Friend WithEvents txtZ As TextBox
+    Friend WithEvents txtAnswers As TextBox
 End Class
