@@ -31,7 +31,6 @@
             Dim answer14 As Double = Math.Pow(x, 4) / (1 + (Math.Pow(x, B) / (1 + Math.Pow(x, C))))
             Dim ans1 As String = answer2.ToString()
             ListView1.TileSize = New Size(ans1.Length * 8, 20)
-            смотри там справа снизу есть карандаш это значит что есть изменения тыкаем туда)
             ListView1.Items.Add(ans1)
             Return True
         End If
