@@ -40,30 +40,30 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Swis721 Hv BT", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(37, 44)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(23, 18)
+        Me.Label1.Size = New System.Drawing.Size(22, 18)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "X:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Swis721 Hv BT", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(23, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(259, 18)
+        Me.Label2.Size = New System.Drawing.Size(230, 18)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Please type values and pres Enter"
         '
         'lblZ
         '
         Me.lblZ.AutoSize = True
-        Me.lblZ.Font = New System.Drawing.Font("Swis721 Hv BT", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblZ.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblZ.Location = New System.Drawing.Point(154, 44)
         Me.lblZ.Name = "lblZ"
-        Me.lblZ.Size = New System.Drawing.Size(23, 18)
+        Me.lblZ.Size = New System.Drawing.Size(21, 18)
         Me.lblZ.TabIndex = 6
         Me.lblZ.Text = "Z:"
         '
