@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class Form1       'PRivit
     Private Const A = 2, B = 2, C = 3
 
 
