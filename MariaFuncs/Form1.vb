@@ -13,8 +13,8 @@
 
             'ToDo Write your code here bro focus!!! допустим ты что-то накодил вооот так видишь изменения появились
 
-            Dim answer1 As Double = ((A + B) / ((2 * A) - B)) * (A + C) * Math.Pow(Math.Sin(x), 2) + z
-            Dim answer2 As Double = Math.Pow(x, A * C) + Math.Exp(B) + Math.Sqrt((A * x) + B)
+            Dim answer1 As Double = ((A + B) / ((2 * A) - B)) * (A + C) * Math.Pow(Math.Sin(x), 2) + z     'first equation
+            Dim answer2 As Double = Math.Pow(x, A * C) + Math.Exp(B) + Math.Sqrt((A * x) + B)    'second equation
             Dim answer3 As Double = (A + B * x - C * Math.Pow(x, 2)) / (Math.Cos(x) + Math.Exp(Math.Sqrt(x))) + Math.Pow(x, A - B)
             Dim answer4 As Double = Math.Log10(B) * Math.Pow(Math.Cos(x), 5) * Math.Sqrt((A * C) / Math.Pow(x, 4))
             Dim answer5 As Double = (x * A / B) * Math.Sqrt(Math.Pow(x, C)) * 1 / (Math.Pow(A, x) + 1)
